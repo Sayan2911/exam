@@ -1,0 +1,7 @@
+[build]
+  publish = "dist"  # Vite typically outputs build files to the "dist" directory
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
