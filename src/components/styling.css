@@ -1,0 +1,51 @@
+/* Input field styling */
+.input-styling {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover and focus effects */
+  .input-styling:focus {
+    outline: none;
+    border-color: #3b76ff;
+    box-shadow: 0 0 8px rgba(59, 144, 255, 0.5);
+  }
+  
+  .input-styling:hover {
+    border-color: #ffffff;
+  }
+  
+  /* Button styling */
+  .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    width: 40%;
+    color:white;
+  }
+  .btn:hover{
+    color: white;
+  }
+  
+  /* Form container styling */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #ff7043;
+    border-radius: 10px;
+    background-color: #db4444;
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
